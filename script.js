@@ -22,9 +22,6 @@ let playASong = function(whichSong) {
 	} else {
 		audio = new Audio(song.src) 
 	}
-  document.getElementById("trackImage").src = playlist[pickASong].image
- document.getElementById("songArtist").innerHTML = `{playlist[pickASong].artist}`
- document.getElementById("songTitle") .innerHTML = `{playlist[pickASong].title}`
 }
 
 let pressedPlay = function() {
