@@ -1,0 +1,25 @@
+body{
+  font-family:sans-serif;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/000/100/314/non_2x/trendy-abstract-geometric-pattern-background-vector.jpg');
+}
+
+.section1 {
+  border-radius: 20px;
+  width: 500px;
+  height: 350px;
+  position: absolute;
+  top:calc(50% - 175px);
+  left:calc(50% - 250px);
+  box-shadow:6px 6px 15px rgba(51,51,51,0.5);
+  overflow:hidden;
+  background: rgb(149,1,193);
+  background: linear-gradient(159deg, rgb(98 42 115) 0%, rgba(227,129,102,1) 100%);
+}
+
+h1{
+  text-align: center;
+}
+
+.playlist {
+   background-image: url('https://static.vecteezy.com/system/resources/previews/000/100/314/non_2x/trendy-abstract-geometric-pattern-background-vector.jpg');
+}
