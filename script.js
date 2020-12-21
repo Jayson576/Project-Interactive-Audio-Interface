@@ -22,6 +22,9 @@ let playASong = function(whichSong) {
 	} else {
 		audio = new Audio(song.src) 
 	}
+  document.getElementById("trackImage").src = playlist[pickASong].image
+ document.getElementById("songArtist").innerHTML = `{playlist[pickASong].artist}`
+ document.getElementById("songTitle") .innerHTML = `{playlist[pickASong].title}`
 }
 
 let pressedPlay = function() {
@@ -36,6 +39,8 @@ let pressedPlay = function() {
 	}
 }
 
+
+
 let play = document.querySelector(`#play`)
 play.addEventListener(`click`, pressedPlay)
 
@@ -43,7 +48,15 @@ let pressedNext = function() {
 	whichSongAmIOn = whichSongAmIOn + 1
 	playASong(whichSongAmIOn)
 }
+
 let next = document.querySelector(`#next`)
 next.addEventListener(`click`, pressedNext)
+
+let pressedBack = function() {
+	whichSongAmIOn = whichSongAmIOn - 1
+	playASong(whichSongAmIOn)
+}
+let back = document.querySelector(`#back`)
+back.addEventListener(`click`, pressedBack)
 
 playASong(0)
