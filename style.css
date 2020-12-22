@@ -6,7 +6,7 @@ body{
 .section1 {
   border-radius: 20px;
   width: 500px;
-  height: 350px;
+  height: 650px;
   position: absolute;
   top:calc(50% - 175px);
   left:calc(50% - 250px);
@@ -18,8 +18,25 @@ body{
 
 h1{
   text-align: center;
+  color: skyblue;
 }
 
 .playlist {
    background-image: url('https://static.vecteezy.com/system/resources/previews/000/100/314/non_2x/trendy-abstract-geometric-pattern-background-vector.jpg');
+}
+
+.music-artist{
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 10px;
+  text-align:center;
+}
+
+.music-title{
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.music-box{
+  color: skyblue;
 }
